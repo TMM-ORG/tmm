@@ -1,0 +1,133 @@
+{
+  "mockRedditApiResponse": {
+    "kind": "Listing",
+    "data": {
+      "after": "t3_abc123",
+      "before": null,
+      "dist": 10,
+      "modhash": "",
+      "geo_filter": "",
+      "children": [
+        {
+          "kind": "t3",
+          "data": {
+            "id": "abc123",
+            "name": "t3_abc123",
+            "title": "Test Post 1: Amazing Technology Discovery",
+            "author": "testuser1",
+            "score": 1500,
+            "num_comments": 250,
+            "created_utc": 1700000000,
+            "selftext": "This is a test post with some content about technology. It has enough text to be interesting for testing purposes.",
+            "permalink": "/r/technology/comments/abc123/test_post_1_amazing_technology_discovery/",
+            "subreddit": "technology",
+            "url": "https://example.com/article1",
+            "domain": "example.com",
+            "is_self": false,
+            "thumbnail": "https://example.com/thumb1.jpg",
+            "upvote_ratio": 0.85,
+            "gilded": 1,
+            "archived": false,
+            "locked": false,
+            "over_18": false,
+            "spoiler": false,
+            "stickied": false
+          }
+        },
+        {
+          "kind": "t3",
+          "data": {
+            "id": "def456",
+            "name": "t3_def456",
+            "title": "Test Post 2: Self Post Example",
+            "author": "testuser2",
+            "score": 850,
+            "num_comments": 125,
+            "created_utc": 1699999000,
+            "selftext": "This is a self post example with longer text content. Self posts are text-only posts where the author shares thoughts, questions, or discussions directly in the post body rather than linking to external content.",
+            "permalink": "/r/technology/comments/def456/test_post_2_self_post_example/",
+            "subreddit": "technology",
+            "url": "https://reddit.com/r/technology/comments/def456/test_post_2_self_post_example/",
+            "domain": "self.technology",
+            "is_self": true,
+            "thumbnail": "self",
+            "upvote_ratio": 0.92,
+            "gilded": 0,
+            "archived": false,
+            "locked": false,
+            "over_18": false,
+            "spoiler": false,
+            "stickied": false
+          }
+        },
+        {
+          "kind": "t3",
+          "data": {
+            "id": "ghi789",
+            "name": "t3_ghi789",
+            "title": "Test Post 3: Short Title",
+            "author": "testuser3",
+            "score": 425,
+            "num_comments": 67,
+            "created_utc": 1699998000,
+            "selftext": "",
+            "permalink": "/r/technology/comments/ghi789/test_post_3_short_title/",
+            "subreddit": "technology",
+            "url": "https://news.example.com/tech-article",
+            "domain": "news.example.com",
+            "is_self": false,
+            "thumbnail": "https://news.example.com/thumb.jpg",
+            "upvote_ratio": 0.78,
+            "gilded": 0,
+            "archived": false,
+            "locked": false,
+            "over_18": false,
+            "spoiler": false,
+            "stickied": false
+          }
+        }
+      ]
+    }
+  },
+  "mockRedditPosts": [
+    {
+      "id": "abc123",
+      "title": "Test Post 1: Amazing Technology Discovery",
+      "author": "testuser1",
+      "score": 1500,
+      "num_comments": 250,
+      "created_utc": 1700000000,
+      "selftext": "This is a test post with some content about technology. It has enough text to be interesting for testing purposes.",
+      "permalink": "/r/technology/comments/abc123/test_post_1_amazing_technology_discovery/",
+      "subreddit": "technology"
+    },
+    {
+      "id": "def456",
+      "title": "Test Post 2: Self Post Example",
+      "author": "testuser2",
+      "score": 850,
+      "num_comments": 125,
+      "created_utc": 1699999000,
+      "selftext": "This is a self post example with longer text content. Self posts are text-only posts where the author shares thoughts, questions, or discussions directly in the post body rather than linking to external content.",
+      "permalink": "/r/technology/comments/def456/test_post_2_self_post_example/",
+      "subreddit": "technology"
+    },
+    {
+      "id": "ghi789",
+      "title": "Test Post 3: Short Title",
+      "author": "testuser3",
+      "score": 425,
+      "num_comments": 67,
+      "created_utc": 1699998000,
+      "selftext": "",
+      "permalink": "/r/technology/comments/ghi789/test_post_3_short_title/",
+      "subreddit": "technology"
+    }
+  ],
+  "mockTokenResponse": {
+    "access_token": "test_access_token_123",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "scope": "*"
+  }
+}
