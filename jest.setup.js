@@ -5,8 +5,8 @@ process.env.REDDIT_CLIENT_ID = 'test_client_id'
 process.env.REDDIT_CLIENT_SECRET = 'test_client_secret'
 process.env.REDDIT_USER_AGENT = 'test_app:1.0.0 (by /u/testuser)'
 process.env.NEXT_PUBLIC_SUPABASE_URL = 'https://test.supabase.co'
-process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = 'test_anon_key'
-process.env.SUPABASE_SERVICE_ROLE_KEY = 'test_service_key'
+process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY = 'test_publishable_key'
+process.env.SUPABASE_SECRET_PUBLISHABLE_KEY = 'test_secret_publishable_key'
 
 // Create a more robust fetch mock
 const mockResponse = (data, options = {}) => {
