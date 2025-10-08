@@ -3,7 +3,7 @@
  * Handles database operations for selected posts and audio files
  */
 
-import { createServerClient } from '@lib/supabase';
+import { createServerClient } from '@/lib/supabase';
 import { SelectedPost, AudioFile, Database } from '@/types/database';
 import { RedditPost } from '@/types/reddit';
 import { PostScore } from '@/services/reddit/analyzer';

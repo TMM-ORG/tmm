@@ -223,6 +223,5 @@ class TTSService {
 // Export singleton instance
 export const ttsService = new TTSService();
 
-// Export errors and types
-export { TTSServiceError, AudioGenerationResult };
-export type { TTSProvider };
+// Re-export types
+export type { AudioGenerationResult, TTSProvider };

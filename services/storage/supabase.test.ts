@@ -3,12 +3,12 @@
  */
 
 import { supabaseStorage, StorageError } from './supabase';
-import { createServerClient } from '@lib/supabase';
+import { createServerClient } from '@/lib/supabase';
 import { RedditPost } from '@/types/reddit';
 import { PostScore } from '@/services/reddit/analyzer';
 
 // Mock Supabase client
-jest.mock('@lib/supabase', () => ({
+jest.mock('@/lib/supabase', () => ({
   createServerClient: jest.fn()
 }));
 
